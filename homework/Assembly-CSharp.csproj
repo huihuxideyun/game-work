@@ -42,23 +42,24 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\sucai\Mini Simple Characters Demo\Readme\Scripts\Readme.cs" />
+     <Compile Include="Assets\player.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Prefabs\Props" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Models" />
-     <Folder Include="Assets\Food_FREE\Scenes" />
+     <Folder Include="Assets\sucai\Food_FREE\Scenes" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Materials" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Models\Animations" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Readme\Scripts" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Prefabs" />
      <Folder Include="Assets\sucai\Selcuk Gerceker" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Scenes" />
-     <Folder Include="Assets\Food_FREE\Materials" />
-     <Folder Include="Assets\Food_FREE\Textures" />
+     <Folder Include="Assets\sucai\Food_FREE\Materials" />
+     <Folder Include="Assets\sucai\Food_FREE\Textures" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Models\Tiles" />
      <Folder Include="Assets\sucai" />
-     <Folder Include="Assets\Food_FREE\Prefabs" />
-     <Folder Include="Assets\Food_FREE\Meshes" />
+     <Folder Include="Assets\sucai\Food_FREE\Prefabs" />
+     <Folder Include="Assets\sucai\Food_FREE\Meshes" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Textures" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Textures\Color Palettes PS Files" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Materials" />
@@ -66,7 +67,7 @@
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Models" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Prefabs" />
-     <Folder Include="Assets\Food_FREE" />
+     <Folder Include="Assets\sucai\Food_FREE" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Readme\Icons" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Models\Props" />

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\xhhsa\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\xhhsa\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_homework.172200195.00" t="ExcludeRecursive" />
+    <e p="D:\game work\game-work\homework" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="player.cs" t="Include" />
+        <e p="Scenes" t="Include" />
+        <e p="sucai" t="Include">
+          <e p="Food_FREE" t="Include">
+            <e p="Materials" t="Include" />
+            <e p="Meshes" t="Include" />
+            <e p="Prefabs" t="Include" />
+            <e p="Scenes" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Mini Simple Characters Demo" t="Include">
+            <e p="Materials" t="Include">
+              <e p="Material Variations" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="Animations" t="Include" />
+            </e>
+            <e p="Prefabs" t="Include" />
+            <e p="Readme" t="Include">
+              <e p="Icons" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                </e>
+                <e p="Readme.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scenes" t="Include" />
+          </e>
+          <e p="Selcuk Gerceker" t="Include">
+            <e p="Toon Environments - World Creator Pack Lite" t="Include">
+              <e p="Materials" t="Include" />
+              <e p="Models" t="Include">
+                <e p="Props" t="Include" />
+                <e p="Tiles" t="Include" />
+              </e>
+              <e p="Prefabs" t="Include">
+                <e p="Props" t="Include" />
+                <e p="Tiles" t="Include" />
+              </e>
+              <e p="Scenes" t="Include" />
+              <e p="Textures" t="Include">
+                <e p="Color Palettes PS Files" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="homework.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
