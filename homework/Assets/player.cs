@@ -1,48 +1,48 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    public float moveSpeed = 5f; // 移动速度
-    public float rotationSpeed = 100f; // 旋转速度
-    public Camera followCamera; // 跟随的摄像机
+   public float moveSpeed = 5f;
+   public float rotationSpeed = 180f;
+   private Animator _animator;
 
-    void Update()
-    {
-        // 获取水平和垂直轴向输入（左右、前后、A、D、W、S键）
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+   private void Start()
+   {
+      _animator = GetComponent<Animator>();
+   }
 
-        // 根据输入计算移动方向
-        Vector3 moveDirection = new Vector3(horizontalInput, 0f, verticalInput).normalized;
+   private void Update()
+   {
+      // 获取键盘输入
+      float horizontalInput = Input.GetAxis("Horizontal");
+      float verticalInput = Input.GetAxis("Vertical");
 
-        // 如果有输入，则旋转角色朝向移动方向
-        if (moveDirection != Vector3.zero)
-        {
-            Quaternion toRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
-        }
+      // 计算移动方向
+      Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput).normalized;
 
-        // 移动角色
-        transform.Translate(moveDirection * moveSpeed * Time.deltaTime, Space.World);
+      // 如果有输入，进行移动和旋转
+      if (movement.magnitude >= 0.1f)
+      {
+         _animator.SetBool("isrun",true);
+         // 计算目标角度
+         float targetAngle = Mathf.Atan2(movement.x, movement.z) * Mathf.Rad2Deg;
+         float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref rotationSpeed, 0.1f);
+         
+         // 应用旋转
+         transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-        // 更新摄像机位置
-        UpdateCameraPosition();
-    }
-
-    void UpdateCameraPosition()
-    {
-        // 获取角色当前位置
-        Vector3 playerPosition = transform.position;
-
-        // 计算摄像机在角色后方的位置（可以根据需求调整偏移）
-        Vector3 cameraOffset = new Vector3(0f, 5f, 8f); // 调整摄像机高度和离角色距离
-        Vector3 cameraPosition = playerPosition + cameraOffset;
-
-        // 平滑移动摄像机位置
-        followCamera.transform.position = Vector3.Lerp(followCamera.transform.position, cameraPosition, 0.1f);
-    }
+         // 计算移动方向并进行移动
+         Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+         transform.Translate(moveDir * moveSpeed * Time.deltaTime, Space.World);
+      }
+      else
+      {
+         _animator.SetBool("isrun",false);
+      }
+   }
 }
 
 
