@@ -7,8 +7,22 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Camera" t="Include">
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="CameraSwitcher.cs" t="Include" />
+          <e p="FirstPersonCamera.cs" t="Include" />
+        </e>
+        <e p="FanyasyStatusIcons" t="Include" />
         <e p="player.cs" t="Include" />
         <e p="Scenes" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="GameManager.cs" t="Include" />
+          <e p="ItemDropper.cs" t="Include" />
+          <e p="PlayerCollision.cs" t="Include" />
+          <e p="PlayerJump.cs" t="Include" />
+          <e p="SelfDestruct.cs" t="Include" />
+          <e p="SlowDownOnCollision.cs" t="Include" />
+        </e>
         <e p="sucai" t="Include">
           <e p="Food_FREE" t="Include">
             <e p="Materials" t="Include" />
@@ -51,6 +65,62 @@
               <e p="Textures" t="Include">
                 <e p="Color Palettes PS Files" t="Include" />
               </e>
+            </e>
+          </e>
+          <e p="Supercyan Character Pack Animal People Sample" t="Include">
+            <e p="Animations" t="Include" />
+            <e p="AnimatorControllers" t="Include" />
+            <e p="Materials" t="Include">
+              <e p="High Quality" t="Include" />
+              <e p="Mobile" t="Include" />
+            </e>
+            <e p="Models" t="Include" />
+            <e p="Prefabs" t="Include">
+              <e p="Base" t="Include">
+                <e p="High Quality" t="Include" />
+                <e p="Mobile" t="Include" />
+              </e>
+              <e p="Simple Movement" t="Include">
+                <e p="High Quality" t="Include" />
+                <e p="Mobile" t="Include" />
+              </e>
+              <e p="WithAccessoryLogic" t="Include">
+                <e p="High Quality" t="Include" />
+                <e p="Mobile" t="Include" />
+              </e>
+            </e>
+            <e p="Scenes" t="Include">
+              <e p="DemoScene" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="AccessoryLogic.cs" t="Include" />
+              <e p="AccessoryWearLogic.cs" t="Include" />
+              <e p="DemoFree.cs" t="Include" />
+              <e p="FreeCameraLogic.cs" t="Include" />
+              <e p="SimpleSampleCharacterControl.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="SupercyanShader.shader" t="Include" />
+              <e p="SupercyanShaderLighting.cginc" t="Include" />
+            </e>
+            <e p="Textures" t="Include">
+              <e p="backpack" t="Include" />
+              <e p="beanie" t="Include" />
+              <e p="Supercyan Sample" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="WhiteTigerArt" t="Include">
+          <e p="Metallic Coin Free Trial" t="Include">
+            <e p="Materials" t="Include">
+              <e p="Metallic Coin01" t="Include" />
+              <e p="Others" t="Include" />
+            </e>
+            <e p="Meshes" t="Include" />
+            <e p="Prefabs" t="Include" />
+            <e p="Textures" t="Include">
+              <e p="Floor and Walls" t="Include" />
+              <e p="Metallic Coin01" t="Include" />
             </e>
           </e>
         </e>
