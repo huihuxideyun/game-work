@@ -14,6 +14,10 @@
         </e>
         <e p="FanyasyStatusIcons" t="Include" />
         <e p="firset move.cs" t="Include" />
+        <e p="map" t="Include">
+          <e p="ImageController.cs" t="Include" />
+          <e p="toumingdu.cs" t="Include" />
+        </e>
         <e p="player.cs" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
