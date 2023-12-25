@@ -21,7 +21,7 @@ public class player : MonoBehaviour
       float verticalInput = Input.GetAxis("Vertical");
 
       // 计算移动方向
-      Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput).normalized;
+      Vector3 movement = new Vector3(-horizontalInput, 0f, -verticalInput).normalized;
 
       // 如果有输入，进行移动和旋转
       if (movement.magnitude >= 0.1f)

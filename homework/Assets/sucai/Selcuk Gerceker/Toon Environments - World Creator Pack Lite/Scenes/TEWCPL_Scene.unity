@@ -6041,7 +6041,7 @@ MonoBehaviour:
   areaSize: {x: -80, y: 6.2, z: 80}
   areaCenter: {x: -12, y: 0, z: -35}
   dropHeight: 20
-  dropRate: 12
+  dropRate: 0.5
 --- !u!4 &619042683
 Transform:
   m_ObjectHideFlags: 0
@@ -8279,7 +8279,7 @@ MonoBehaviour:
   areaSize: {x: -80, y: 6.2, z: 80}
   areaCenter: {x: -12, y: 0, z: -35}
   dropHeight: 20
-  dropRate: 8
+  dropRate: 0.5
 --- !u!4 &862903012
 Transform:
   m_ObjectHideFlags: 0
@@ -9285,8 +9285,8 @@ MonoBehaviour:
   - {fileID: 950900273043801861, guid: 7e134282e0e24594d8c4b483e4068018, type: 3}
   areaSize: {x: -80, y: 6.2, z: 80}
   areaCenter: {x: -12, y: 0, z: -35}
-  dropHeight: 2
-  dropRate: 20
+  dropHeight: 20
+  dropRate: 8
 --- !u!4 &948874222
 Transform:
   m_ObjectHideFlags: 0
@@ -11703,8 +11703,8 @@ MonoBehaviour:
   - {fileID: 950900273043801861, guid: 7e134282e0e24594d8c4b483e4068018, type: 3}
   areaSize: {x: -80, y: 6.2, z: 80}
   areaCenter: {x: -12, y: 0, z: -35}
-  dropHeight: 2
-  dropRate: 15
+  dropHeight: 20
+  dropRate: 6
 --- !u!4 &1218938252
 Transform:
   m_ObjectHideFlags: 0
@@ -19189,6 +19189,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 5
+  flyForce: 12
+  maxFlyHeight: 100
+--- !u!114 &1961008417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961008406}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38bc15572b07fda4c872d9650a6da725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flightForce: 3
+  maxFlightHeight: 100
+  fallSpeed: 10
 --- !u!1 &1969014352 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1304704324520337455, guid: 6fbeead406b0d6c4ba7793d754752d28, type: 3}
@@ -20496,8 +20513,8 @@ MonoBehaviour:
   - {fileID: 950900273043801861, guid: 7e134282e0e24594d8c4b483e4068018, type: 3}
   areaSize: {x: -80, y: 6.2, z: 80}
   areaCenter: {x: -12, y: 0, z: -35}
-  dropHeight: 2
-  dropRate: 30
+  dropHeight: 20
+  dropRate: 10
 --- !u!4 &2102187034
 Transform:
   m_ObjectHideFlags: 0
@@ -20967,7 +20984,7 @@ MonoBehaviour:
   areaSize: {x: -80, y: 6.2, z: 80}
   areaCenter: {x: -12, y: 0, z: -35}
   dropHeight: 20
-  dropRate: 16
+  dropRate: 0.5
 --- !u!4 &2125695575
 Transform:
   m_ObjectHideFlags: 0
