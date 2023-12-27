@@ -12,13 +12,17 @@
           <e p="CameraSwitcher.cs" t="Include" />
           <e p="FirstPersonCamera.cs" t="Include" />
         </e>
-        <e p="FanyasyStatusIcons" t="Include" />
-        <e p="firset move.cs" t="Include" />
+        <e p="denglu" t="Include">
+          <e p="denglu.cs" t="Include" />
+        </e>
         <e p="map" t="Include">
           <e p="ImageController.cs" t="Include" />
           <e p="toumingdu.cs" t="Include" />
         </e>
-        <e p="player.cs" t="Include" />
+        <e p="player" t="Include">
+          <e p="firset move.cs" t="Include" />
+          <e p="player.cs" t="Include" />
+        </e>
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="FLY.cs" t="Include" />
@@ -30,6 +34,7 @@
           <e p="SlowDownOnCollision.cs" t="Include" />
         </e>
         <e p="sucai" t="Include">
+          <e p="FanyasyStatusIcons" t="Include" />
           <e p="Food_FREE" t="Include">
             <e p="Materials" t="Include" />
             <e p="Meshes" t="Include" />
@@ -115,18 +120,21 @@
               <e p="Supercyan Sample" t="Include" />
             </e>
           </e>
-        </e>
-        <e p="WhiteTigerArt" t="Include">
-          <e p="Metallic Coin Free Trial" t="Include">
-            <e p="Materials" t="Include">
-              <e p="Metallic Coin01" t="Include" />
-              <e p="Others" t="Include" />
-            </e>
-            <e p="Meshes" t="Include" />
-            <e p="Prefabs" t="Include" />
-            <e p="Textures" t="Include">
-              <e p="Floor and Walls" t="Include" />
-              <e p="Metallic Coin01" t="Include" />
+          <e p="Thaleah_PixelFont" t="Include">
+            <e p="Materials" t="Include" />
+          </e>
+          <e p="WhiteTigerArt" t="Include">
+            <e p="Metallic Coin Free Trial" t="Include">
+              <e p="Materials" t="Include">
+                <e p="Metallic Coin01" t="Include" />
+                <e p="Others" t="Include" />
+              </e>
+              <e p="Meshes" t="Include" />
+              <e p="Prefabs" t="Include" />
+              <e p="Textures" t="Include">
+                <e p="Floor and Walls" t="Include" />
+                <e p="Metallic Coin01" t="Include" />
+              </e>
             </e>
           </e>
         </e>

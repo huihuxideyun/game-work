@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     void UpdateScoreAndHealthDisplay()
     {
-        scoreText.text = "分数: " + score;
+        scoreText.text = "SCORE: " + score;
 
         for (int i = 0; i < healthIcons.Length; i++)
         {
