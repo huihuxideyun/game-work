@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public int score = 0;
@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] healthIcons;
     public GameObject winText; 
     public GameObject loseText; 
-
+    public float delayTime = 2f;
     void UpdateScoreAndHealthDisplay()
     {
         scoreText.text = "SCORE: " + score;
@@ -21,6 +21,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void tiaozhaun()
+    {
+        SceneManager.LoadScene("denglu");
+    }
     public void AddScore()
     {
         score++;
@@ -29,6 +33,7 @@ public class GameManager : MonoBehaviour
         if (score >= 5)
         {
             winText.SetActive(true);
+            Invoke("tiaozhaun", delayTime);
         }
     }
 
@@ -40,6 +45,7 @@ public class GameManager : MonoBehaviour
         if (health <= 0)
         {
             loseText.SetActive(true); 
+            Invoke("tiaozhaun", delayTime);
         }
     }
 }
