@@ -5,7 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public int score = 0;
     public int health = 5;
-
+    public AudioSource losemusic;
+    public AudioSource winmusic;
     public Text scoreText;
     public GameObject[] healthIcons;
     public GameObject winText; 
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour
     void UpdateScoreAndHealthDisplay()
     {
         scoreText.text = "SCORE: " + score;
-
+        
         for (int i = 0; i < healthIcons.Length; i++)
         {
             healthIcons[i].SetActive(i < health);
@@ -47,5 +48,14 @@ public class GameManager : MonoBehaviour
             loseText.SetActive(true); 
             Invoke("tiaozhaun", delayTime);
         }
+    }
+
+    public void loseplay()
+         {
+             losemusic.Play();
+         }
+    public void winplay()
+    {
+        winmusic.Play();
     }
 }

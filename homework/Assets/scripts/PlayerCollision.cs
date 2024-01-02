@@ -13,11 +13,13 @@ public class PlayerCollision : MonoBehaviour
     {
         if (other.gameObject.CompareTag("scoreItem"))
         {
+            gameManager.winplay();
             gameManager.AddScore();
             Destroy(other.gameObject); 
         }
         else if (other.gameObject.CompareTag("food"))
         {
+            gameManager.loseplay();
             gameManager.TakeDamage();
         }
     }
