@@ -61,6 +61,7 @@
             </e>
             <e p="Scenes" t="Include" />
           </e>
+          <e p="music" t="Include" />
           <e p="Selcuk Gerceker" t="Include">
             <e p="Toon Environments - World Creator Pack Lite" t="Include">
               <e p="Materials" t="Include" />
