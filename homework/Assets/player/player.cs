@@ -12,6 +12,11 @@ public class player : MonoBehaviour
    private void Start()
    {
       _animator = GetComponent<Animator>();
+      if (PlayfabManager.Instance != null)
+      {
+         PlayfabManager.Instance.SetPlayer(this.transform);
+         DontDestroyOnLoad(this.gameObject); 
+      }
    }
 
    private void Update()

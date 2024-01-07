@@ -1,6 +1,10 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using PlayFab;
+using PlayFab.ClientModels;
+using System.Collections.Generic;
 public class GameManager : MonoBehaviour
 {
     public int score = 0;
@@ -12,6 +16,34 @@ public class GameManager : MonoBehaviour
     public GameObject winText; 
     public GameObject loseText; 
     public float delayTime = 2f;
+    public static GameManager Instance { get; private set; }
+    private bool sceneLoaded = false; 
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded; 
+        }
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        sceneLoaded = false;
+    }
+
+    private void Update()
+    {
+        if (!sceneLoaded)
+        {
+            SetupScene();
+            sceneLoaded = true;
+        }
+    }
     void UpdateScoreAndHealthDisplay()
     {
         scoreText.text = "SCORE: " + score;
@@ -20,6 +52,12 @@ public class GameManager : MonoBehaviour
         {
             healthIcons[i].SetActive(i < health);
         }
+    }
+    public void SetupScene()
+    {
+        scoreText = GameObject.Find("ScoreText").GetComponent<Text>(); 
+        healthIcons = GameObject.FindGameObjectsWithTag("healthIcons"); 
+        UpdateScoreAndHealthDisplay(); 
     }
 
     void tiaozhaun()
@@ -58,4 +96,5 @@ public class GameManager : MonoBehaviour
     {
         winmusic.Play();
     }
+    
 }

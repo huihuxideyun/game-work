@@ -42,26 +42,30 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\denglu\denglu.cs" />
-     <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\FreeCameraLogic.cs" />
+     <Compile Include="Assets\scripts\WingController.cs" />
      <Compile Include="Assets\map\toumingdu.cs" />
      <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\AccessoryLogic.cs" />
-     <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\DemoFree.cs" />
      <Compile Include="Assets\player\player.cs" />
-     <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\SimpleSampleCharacterControl.cs" />
      <Compile Include="Assets\Camera\FirstPersonCamera.cs" />
      <Compile Include="Assets\scripts\PlayerJump.cs" />
-     <Compile Include="Assets\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\AccessoryWearLogic.cs" />
      <Compile Include="Assets\sucai\Mini Simple Characters Demo\Readme\Scripts\Readme.cs" />
-     <Compile Include="Assets\Camera\CameraSwitcher.cs" />
      <Compile Include="Assets\map\ImageController.cs" />
      <Compile Include="Assets\scripts\FLY.cs" />
-     <Compile Include="Assets\scripts\PlayerCollision.cs" />
      <Compile Include="Assets\scripts\SelfDestruct.cs" />
-     <Compile Include="Assets\scripts\ItemDropper.cs" />
      <Compile Include="Assets\player\firset move.cs" />
-     <Compile Include="Assets\scripts\SlowDownOnCollision.cs" />
      <Compile Include="Assets\scripts\GameManager.cs" />
+     <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\FreeCameraLogic.cs" />
+     <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\DemoFree.cs" />
+     <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\SimpleSampleCharacterControl.cs" />
+     <Compile Include="Assets\PlayfabManager.cs" />
+     <Compile Include="Assets\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts\AccessoryWearLogic.cs" />
+     <Compile Include="Assets\Camera\CameraSwitcher.cs" />
+     <Compile Include="Assets\scripts\PlayerCollision.cs" />
+     <Compile Include="Assets\scripts\ItemDropper.cs" />
+     <Compile Include="Assets\sucai\FST\DemonWings\DemoScripts\DemoAnimationSelector.cs" />
+     <Compile Include="Assets\scripts\SlowDownOnCollision.cs" />
+     <Compile Include="Assets\scripts\PersistCanvas.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Prefabs\Props" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Prefabs\Base\Mobile" />
@@ -69,6 +73,7 @@
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Prefabs\Base" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Textures\beanie" />
      <Folder Include="Assets\sucai\FanyasyStatusIcons" />
+     <Folder Include="Assets\sucai\FST\DemonWings\Materials" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Prefabs\Simple Movement" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Shaders" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo" />
@@ -76,12 +81,14 @@
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Textures" />
      <Folder Include="Assets\sucai\Food_FREE\Scenes" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Materials\Mobile" />
+     <Folder Include="Assets\sucai\FST\DemonWings\Prefab" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Materials" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scripts" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Scenes\DemoScene" />
      <Folder Include="Assets\Camera" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Models\Animations" />
      <Folder Include="Assets\sucai\WhiteTigerArt\Metallic Coin Free Trial\Prefabs" />
+     <Folder Include="Assets\sucai\FST\DemonWings" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Readme\Scripts" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Prefabs" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Prefabs\WithAccessoryLogic\High Quality" />
@@ -93,6 +100,7 @@
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Prefabs\WithAccessoryLogic" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Scenes" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Textures\backpack" />
+     <Folder Include="Assets\PlayFabEditorExtensions" />
      <Folder Include="Assets\sucai\Food_FREE\Materials" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Prefabs\Simple Movement\High Quality" />
@@ -101,6 +109,7 @@
      <Folder Include="Assets\sucai\Food_FREE\Textures" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Models\Tiles" />
      <Folder Include="Assets\sucai\WhiteTigerArt\Metallic Coin Free Trial\Materials" />
+     <Folder Include="Assets\sucai\FST\DemonWings\Models" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Models" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Textures\Supercyan Sample" />
      <Folder Include="Assets\sucai\WhiteTigerArt\Metallic Coin Free Trial" />
@@ -115,6 +124,7 @@
      <Folder Include="Assets\sucai\WhiteTigerArt\Metallic Coin Free Trial\Meshes" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Materials" />
      <Folder Include="Assets\player" />
+     <Folder Include="Assets\sucai\FST" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Readme" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Materials" />
      <Folder Include="Assets\sucai\Thaleah_PixelFont\Materials" />
@@ -122,6 +132,7 @@
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Prefabs\Simple Movement\Mobile" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Prefabs" />
      <Folder Include="Assets\sucai\WhiteTigerArt" />
+     <Folder Include="Assets\sucai\prefab" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Models" />
      <Folder Include="Assets\sucai\Thaleah_PixelFont" />
      <Folder Include="Assets\sucai\WhiteTigerArt\Metallic Coin Free Trial\Textures\Floor and Walls" />
@@ -131,6 +142,7 @@
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Readme\Icons" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Materials\High Quality" />
+     <Folder Include="Assets\sucai\FST\DemonWings\Textures" />
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Models\Props" />
      <Folder Include="Assets\sucai\Supercyan Character Pack Animal People Sample\Animations" />
      <Folder Include="Assets\map" />
@@ -138,6 +150,7 @@
      <Folder Include="Assets\sucai\Selcuk Gerceker\Toon Environments - World Creator Pack Lite\Prefabs\Tiles" />
      <Folder Include="Assets\sucai\music" />
      <Folder Include="Assets\sucai\Mini Simple Characters Demo\Materials\Material Variations" />
+     <Folder Include="Assets\sucai\FST\DemonWings\DemoScripts" />
      <Folder Include="Assets\sucai\WhiteTigerArt\Metallic Coin Free Trial\Materials\Others" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.48f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -372,6 +385,9 @@
      </Reference>
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.48f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:\game work\game-work\homework\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.48f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -718,14 +734,29 @@
      <Reference Include="System.Xml.Serialization">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.48f1c1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -736,6 +767,18 @@
      <Reference Include="Unity.TextMeshPro">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
@@ -745,47 +788,32 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Searcher.Editor">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Editor">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ShaderGraph.Editor">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-     <HintPath>D:\game work\game-work\homework\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{760b8b17-ee03-959d-1afa-ed350fdb8fc9}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{8b6a9bc8-cdd0-23a8-765a-764c81f74dd5}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{fed06236-ea15-137e-fe14-c2f7da8db073}</Project>
+      <Name>PlayFab</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

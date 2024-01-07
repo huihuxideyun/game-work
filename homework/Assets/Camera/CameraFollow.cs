@@ -7,6 +7,10 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
     public Vector3 offset;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject); 
+    }
     private void LateUpdate()
     {
         if (target != null)

@@ -7,6 +7,10 @@ public class FirstPersonCamera : MonoBehaviour
     public Transform player;
     public Vector3 offset;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject); 
+    }
     private void Update()
     {
         if (player != null)
